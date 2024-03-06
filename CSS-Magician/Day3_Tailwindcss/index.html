@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanado</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#f9d9AA]">
+    <main class="container mx-auto px-20">
+        <section class="flex justify-between items-center h-screen">
+            <div class="w-96">
+                <h2 class=" text-4xl font-semibold text-[#2f2105] mb-5 leading-snug">
+                    Enjoy your <span class="text-[#ff902a]"> Coffee </span> before your activity
+                </h2>
+                <p class="text-[#2f2105]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil dolor libero ad amet. Perferendis, quis eos?</p>
+
+                <div class="flex items-center gap-4 mt-3">
+                   <button class="bg-[#2f2105] text-white px-8 py-2 rounded-full flex items-center gap-1.5">
+                     <span class="flex-1"> Order now </span>
+                     <span class=" p-2 bg-[#ff902a] rounded-full grid place-items-center text-sm ">
+                        <i class="ai-cart"></i>
+                     </span>
+                   </button>
+                   <button>More Menu</button>
+                </div>
+            </div>
+
+            <div class="relative">
+                <div class="w-96 bg-[#2f2105] rounded-full h-96 flex justify-center items-center">
+                    <img src="Assets/images/coffe-glass.png" alt="" class="w-72 h-auto">
+                </div>
+
+                <div class="bg-white/50 w-max p-1.5 rounded-full absolute top-6 left-0 backdrop-blur-sm transition-all  duration-300  hover:-translate-y-5">
+                    <p class="bg-white px-8 py-2 w-max rounded-full text-xl font-medium">Cappucino</p>
+                </div>
+                <div class="bg-white/50 w-max p-1.5 rounded-full absolute  bottom-4 left-8 backdrop-blur-sm">
+                    <p class="bg-white px-8 py-2 w-max rounded-full text-xl font-medium">18K</p>
+                </div>
+                <div class="bg-white/50 w-max p-1.5 rounded-full absolute top-24 right-4 backdrop-blur-sm">
+                    <p class="bg-white px-8 py-2 w-max rounded-full text-xl font-medium">4.8 
+                        <i class="ai-star"></i>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
